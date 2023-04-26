@@ -7,7 +7,7 @@ public partial class Beneficiario
 {
     public int IdBeneficiario { get; set; }
 
-    public string? NombreS { get; set; }
+    public string? Nombre { get; set; }
 
     public string? ApellidoPaterno { get; set; }
 

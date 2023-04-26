@@ -48,10 +48,9 @@ public partial class EmpresaContext : DbContext
                 .HasColumnType("date")
                 .HasColumnName("Fecha_nacimiento");
             entity.Property(e => e.IdEmpleado).HasColumnName("Id_empleado");
-            entity.Property(e => e.NombreS)
+            entity.Property(e => e.Nombre)
                 .HasMaxLength(350)
-                .IsUnicode(false)
-                .HasColumnName("Nombre(s)");
+                .IsUnicode(false);
             entity.Property(e => e.Sexo)
                 .HasMaxLength(70)
                 .IsUnicode(false);
@@ -78,10 +77,9 @@ public partial class EmpresaContext : DbContext
             entity.Property(e => e.FechaContratación).HasColumnType("date");
             entity.Property(e => e.Foto).IsUnicode(false);
             entity.Property(e => e.IdBeneficiario).HasColumnName("Id_beneficiario");
-            entity.Property(e => e.NombreS)
+            entity.Property(e => e.Nombre)
                 .HasMaxLength(350)
-                .IsUnicode(false)
-                .HasColumnName("Nombre(s)");
+                .IsUnicode(false);
             entity.Property(e => e.Password)
                 .HasMaxLength(100)
                 .IsUnicode(false);

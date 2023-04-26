@@ -1,5 +1,4 @@
 ﻿using Api.Business.Interfaces;
-using Api.DB.Models;
 using Api.Models.Empleados.Request;
 using Api.Models.Empleados.Response;
 using System;

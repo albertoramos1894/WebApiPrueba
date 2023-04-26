@@ -64,7 +64,7 @@ namespace Business
                         Success = true,
                         Message = "Login exitoso.",
                         Result = token
-                    };                    
+                    };
                 }
                 else
                 {
@@ -72,8 +72,8 @@ namespace Business
                     {
                         Code = 200,
                         Success = false,
-                        Message = "El usuario o password son incorrectos favor de verificar."                        
-                    };                    
+                        Message = "El usuario o password son incorrectos favor de verificar."
+                    };
                 }
             }
             catch (Exception ex)

@@ -9,7 +9,7 @@ public partial class Empleado
 
     public string? Foto { get; set; }
 
-    public string? NombreS { get; set; }
+    public string? Nombre { get; set; }
 
     public string? ApellidoPaterno { get; set; }
 
