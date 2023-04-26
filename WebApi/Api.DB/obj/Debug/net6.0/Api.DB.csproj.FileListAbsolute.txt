@@ -1,0 +1,14 @@
+D:\Codigos\WebApiPrueba\WebApi\Api.DB\bin\Debug\net6.0\Api.DB.deps.json
+D:\Codigos\WebApiPrueba\WebApi\Api.DB\bin\Debug\net6.0\Api.DB.runtimeconfig.json
+D:\Codigos\WebApiPrueba\WebApi\Api.DB\bin\Debug\net6.0\Api.DB.dll
+D:\Codigos\WebApiPrueba\WebApi\Api.DB\bin\Debug\net6.0\Api.DB.pdb
+D:\Codigos\WebApiPrueba\WebApi\Api.DB\obj\Debug\net6.0\Api.DB.csproj.AssemblyReference.cache
+D:\Codigos\WebApiPrueba\WebApi\Api.DB\obj\Debug\net6.0\Api.DB.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codigos\WebApiPrueba\WebApi\Api.DB\obj\Debug\net6.0\Api.DB.AssemblyInfoInputs.cache
+D:\Codigos\WebApiPrueba\WebApi\Api.DB\obj\Debug\net6.0\Api.DB.AssemblyInfo.cs
+D:\Codigos\WebApiPrueba\WebApi\Api.DB\obj\Debug\net6.0\Api.DB.csproj.CoreCompileInputs.cache
+D:\Codigos\WebApiPrueba\WebApi\Api.DB\obj\Debug\net6.0\Api.DB.dll
+D:\Codigos\WebApiPrueba\WebApi\Api.DB\obj\Debug\net6.0\refint\Api.DB.dll
+D:\Codigos\WebApiPrueba\WebApi\Api.DB\obj\Debug\net6.0\Api.DB.pdb
+D:\Codigos\WebApiPrueba\WebApi\Api.DB\obj\Debug\net6.0\Api.DB.genruntimeconfig.cache
+D:\Codigos\WebApiPrueba\WebApi\Api.DB\obj\Debug\net6.0\ref\Api.DB.dll
