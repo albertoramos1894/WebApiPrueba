@@ -11,5 +11,6 @@ namespace Api.Business.Interfaces
     public interface IEmpleadoBusiness
     {
         CreateEmpleadoResponse CreateEmpleado(CreateEmpleadoRequest request);
+        GetEmpleadoResponse GetEmpleados();
     }
 }

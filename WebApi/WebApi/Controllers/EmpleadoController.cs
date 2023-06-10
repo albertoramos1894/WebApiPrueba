@@ -18,8 +18,8 @@ namespace WebApi.Controllers
         {
             _empleadoBusiness = empleadoBusiness;
         }
-        [HttpPost]
-        //[Route("CrearEmpleado")]
+
+        [HttpPost]        
         [Authorize]
         public async Task<IActionResult> Create(CreateEmpleadoRequest request)
         {
@@ -30,6 +30,21 @@ namespace WebApi.Controllers
             }catch(Exception ex)
             {
                 return BadRequest(new GeneralResponse<Object>() { Code = (int) HttpStatusCode.BadRequest, Message = "Ocurrio un error inesperado", Success = false });
+            }
+        }
+        
+        [HttpGet]
+        [Authorize]
+        public async Task<IActionResult> Get()
+        {
+            try
+            {                
+                var result = _empleadoBusiness.GetEmpleados();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new GeneralResponse<Object>() { Code = (int)HttpStatusCode.BadRequest, Message = "Ocurrio un error inesperado", Success = false });
             }
         }
     }
